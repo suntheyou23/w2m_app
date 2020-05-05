@@ -1,0 +1,14 @@
+
+.text {
+    display: inline-block;
+}
+
+.change {
+    width: 130px;
+    height: 40px;   
+    font-size: 13pt;
+}
+
+.button {
+    text-align: right;
+}
