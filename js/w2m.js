@@ -4,7 +4,7 @@ $(function() {
 
         w = $("#w_box").val();
 
-        for (var i=0; i<(w.match( /w/g ) || [] ).length; i++) {
+        for (var i=0; i<(w.match( /w|W/g ) || [] ).length; i++) {
             m += 'm';
         }
 
